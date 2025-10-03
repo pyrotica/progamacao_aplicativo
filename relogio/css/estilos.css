@@ -1,0 +1,45 @@
+@font-face {
+    font-family: relogio;
+    src: url('/font/DS-DIGI.TTF');
+}
+body{
+    background-image: url(../img/herrah.png);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    /* .imagem-canto {
+        position: fixed; 
+        bottom: 10px;    
+        right: 10px;    
+        z-index: 1000;   
+    } */
+
+.centra{
+    width: 600px;
+    background: rgba(248, 248, 255, 0.22);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.centra div{
+    background: rgba(0, 0, 0, 0.226);
+    color: rgba(0, 0, 0, 0.774);
+    height: 350px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.centra span{
+    font-size: 100px;
+    font-family: relogio;
+}
